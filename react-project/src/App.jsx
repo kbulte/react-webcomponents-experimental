@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
+import { WefElement } from 'wef-element'
 
 function App() {
 
   return (
     <div className="App">
-      This is from React.
+      <wef-element></wef-element>
+      <p>This is from React.</p>
     </div>
   )
 }

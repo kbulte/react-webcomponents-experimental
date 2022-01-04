@@ -1,5 +1,5 @@
 {
-  "name": "wef-component",
+  "name": "wef-element",
   "version": "0.0.0",
   "main": "dist/wef-element.es.js",
   "exports": {
