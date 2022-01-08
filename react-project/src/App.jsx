@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <wef-element onClick={handleElementClick}></wef-element>
+      <wef-element onWefElementClicked={handleElementClick}></wef-element>
       <p>This is from React.</p>
     </div>
   )
