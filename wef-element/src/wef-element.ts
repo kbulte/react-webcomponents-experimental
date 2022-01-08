@@ -19,7 +19,7 @@ export class WefElement extends LitElement {
   private _raiseClickEvent = () =>{
     const event = new Event("WefElementClicked");
     this.dispatchEvent(event);
-    console.log("event dispatched from wef-element");
+    console.log("event dispatched from wef-element");{}
   }
 
 }
